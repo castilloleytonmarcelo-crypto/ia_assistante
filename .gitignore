@@ -1,0 +1,28 @@
+# Ignorar archivos mp3
+*.mp3
+
+# Ignorar archivos de audio en general
+*.wav
+*.flac
+
+# Archivos de sistema y ocultos
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Carpetas de dependencias y temporales
+node_modules/
+dist/
+build/
+.env
+
+# Archivos de log
+*.log
+npm-debug.log*
+
+# Entorno virtual
+venv/
+.env
+
+# Cache de Python
+__pycache__/
