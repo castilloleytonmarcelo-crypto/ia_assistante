@@ -35,12 +35,11 @@ Hemos elegido esta licencia porque combina la libertad del código abierto con u
 
 ```bash
 # Ejemplo de cómo empezar
-mkdir -p "$/tmp/git" && cd "/tmp/git"
-#mkdir -p "$HOME/git" && cd "$HOME/git"
+mkdir -p "/tmp/git" && cd "/tmp/git"
 git clone https://github.com/castilloleytonmarcelo-crypto/ia_assistante.git
 cd ia_assistante
 pip install -r requirements.txt
-python assistance/debug_assistance_pentest.py
+python debug_assistance_pentest.py
 ```
 
 
