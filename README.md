@@ -38,6 +38,12 @@ Hemos elegido esta licencia porque combina la libertad del código abierto con u
 mkdir -p "/tmp/git" && cd "/tmp/git"
 git clone https://github.com/castilloleytonmarcelo-crypto/ia_assistante.git
 cd ia_assistante
+
+python -m venv /home/$USER/appdaemon_venv
+source /home/$USER/appdaemon_venv/bin/activate
+pip3 install appdaemon
+
+
 pip install -r requirements.txt
 python debug_assistance_pentest.py
 ```
